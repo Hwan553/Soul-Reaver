@@ -1,0 +1,7 @@
+using UnityEngine;
+
+public interface IDamageable
+{
+    void TakeDamage(float damage, Transform attacker, bool isCritical = false);
+
+}
